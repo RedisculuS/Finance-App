@@ -1,0 +1,33 @@
+.wrapper {
+  background-color: var(--light-color);
+}
+
+.navList {
+  background-color: var(--medium-color);
+  border-top-left-radius: 36px;
+  border-top-right-radius: 36px;
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  padding: 26px 44px;
+  justify-content: space-between;
+}
+
+.navItemBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 22px;
+  background-color: transparent;
+  border: none;
+}
+.navItemBtn:hover,
+.navItemBtn:active {
+  background-color: var(--dark-color);
+}
+
+.btnIcon {
+  height: 30px;
+  width: 30px;
+}
