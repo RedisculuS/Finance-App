@@ -16,7 +16,6 @@ p {
   background-color: var(--dark-color);
   border-radius: 31px;
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   padding-top: 22px;
   padding-bottom: 22px;
@@ -31,7 +30,6 @@ p {
   align-items: center;
   gap: 3px;
   padding-right: 20px;
-  /* margin-left: 37px; */
 }
 
 .savingsDescr {
@@ -64,7 +62,6 @@ p {
 }
 
 .weeklyStatsWrap {
-  /* padding-left: 20px; */
   padding-left: 18px;
 }
 
@@ -72,7 +69,6 @@ p {
   display: flex;
   gap: 12px;
   padding-bottom: 11px;
-  /* padding-top: 3px; */
   padding-left: 2px;
 }
 
@@ -100,7 +96,6 @@ p {
   display: flex;
   gap: 12px;
   padding-top: 11px;
-  /* padding-bottom: 3px; */
   padding-left: 2px;
 }
 
@@ -117,31 +112,127 @@ p {
 
 .filtersWrap {
   border-radius: 22px;
-  /* padding: 6px 14px; */
-  padding: 20px;
-  /* width: 358px; */
-  /* height: 60px; */
+  padding: 6px 12px;
   background-color: var(--medium-color);
-  /* display: block; */
+  margin-bottom: 24px;
 }
 
 .filtersList {
   list-style: none;
   display: flex;
-  /* gap: 24px; */
   justify-content: space-around;
-  /* flex-basis: calc((100% - 2 * 24px) / 3); */
   align-items: center;
 }
 
 .filterItem {
+  font-family: 'Poppins', sans-serif;
+  background-color: transparent;
+  border: none;
+  width: 95px;
+  height: 50px;
   font-weight: 400;
   font-size: 15px;
 }
-
+.filterItem:active,
+.filterItem:hover {
+  background-color: var(--dark-color);
+  border-radius: 19px;
+}
 .filterItemActive {
   position: absolute;
   background-color: var(--dark-color);
   padding: 14px 6px;
   border-radius: 19px;
+}
+/* .transactionsList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+} */
+.transactionsList {
+  list-style: none;
+  /* display: flex;
+  flex-direction: column; */
+  /* gap: 24px; */
+  /* padding: 24px; */
+}
+
+/* .transactionItem {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.transactionItem {
+  display: flex;
+  gap: 16px;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* padding-top: 12px; */
+  padding-bottom: 24px;
+}
+
+.divider {
+  height: 35px;
+  width: 1px;
+  background-color: var(--dark-color);
+}
+
+.iconWrap {
+  border-radius: 22px;
+  width: 57px;
+  height: 53px;
+  background-color: var(--light-accent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transIcon {
+  height: 26px;
+  width: 26px;
+}
+
+.transWrap {
+  /* padding-right: 16px; */
+}
+
+.transDescr {
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+/* .transDate {
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: capitalize;
+  color: var(--dark-accent);
+} */
+
+.transDate {
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: capitalize;
+  color: var(--dark-accent);
+}
+.transComment {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 115%;
+}
+
+.transSum {
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.transSumMinus {
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: capitalize;
+  color: var(--dark-accent);
 }
