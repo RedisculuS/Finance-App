@@ -1,0 +1,8 @@
+.wrapper {
+  background-color: var(--dark-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

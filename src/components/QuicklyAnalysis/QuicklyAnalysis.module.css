@@ -1,0 +1,147 @@
+.wrapper {
+  background-color: var(--light-color);
+  border-top-right-radius: 36px;
+  border-top-left-radius: 36px;
+  padding-top: 33px;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+p {
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+}
+
+.quickFinanceWrap {
+  background-color: var(--dark-color);
+  border-radius: 31px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 36px;
+  padding-right: 36px;
+  margin-bottom: 26px;
+}
+
+.savingsWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding-right: 20px;
+  /* margin-left: 37px; */
+}
+
+.savingsDescr {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.savingIconWrap {
+  border-radius: 50%;
+  border: 2px solid var(--light-color);
+  width: 69px;
+  height: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+}
+
+.dividerVert {
+  height: 108px;
+  width: 2px;
+  background-color: var(--light-color);
+}
+
+.weeklyStatsWrap {
+  /* padding-left: 20px; */
+  padding-left: 18px;
+}
+
+.revenueWrap {
+  display: flex;
+  gap: 12px;
+  padding-bottom: 11px;
+  /* padding-top: 3px; */
+  padding-left: 2px;
+}
+
+.revenueText {
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.revenueSum {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.dividerHor {
+  width: 161px;
+  height: 2px;
+  background-color: var(--light-color);
+}
+
+.expensesWrap {
+  display: flex;
+}
+
+.expensesWrap {
+  display: flex;
+  gap: 12px;
+  padding-top: 11px;
+  /* padding-bottom: 3px; */
+  padding-left: 2px;
+}
+
+.expensesText {
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.expensesSum {
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--dark-accent);
+}
+
+.filtersWrap {
+  border-radius: 22px;
+  /* padding: 6px 14px; */
+  padding: 20px;
+  /* width: 358px; */
+  /* height: 60px; */
+  background-color: var(--medium-color);
+  /* display: block; */
+}
+
+.filtersList {
+  list-style: none;
+  display: flex;
+  /* gap: 24px; */
+  justify-content: space-around;
+  /* flex-basis: calc((100% - 2 * 24px) / 3); */
+  align-items: center;
+}
+
+.filterItem {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.filterItemActive {
+  position: absolute;
+  background-color: var(--dark-color);
+  padding: 14px 6px;
+  border-radius: 19px;
+}

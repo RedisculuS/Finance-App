@@ -1,4 +1,11 @@
-/* src/index.css */
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins-Regular'), local('Poppins-Medium'),
+    local('Poppins-SemiBold'),
+    url('./fonts/Poppins-Regular.ttf') format('truetype'),
+    url('./fonts/Poppins-Medium.ttf') format('truetype'),
+    url('./fonts/Poppins-SemiBold.ttf') format('truetype');
+}
 
 body {
   font-family: sans-serif;

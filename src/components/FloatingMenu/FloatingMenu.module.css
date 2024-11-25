@@ -1,0 +1,38 @@
+.wrapper {
+  padding-top: 28px;
+  padding-left: 36px;
+  padding-right: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 41px;
+}
+
+.greetingsText {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 110%;
+  text-transform: capitalize;
+}
+
+.descrText {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.textWrapper {
+  /* display: flex; */
+}
+
+.notificationBtn {
+  border-radius: 26px;
+  border: none;
+  width: 30px;
+  height: 30px;
+  background-color: var(--light-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

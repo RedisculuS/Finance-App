@@ -1,0 +1,60 @@
+{
+  "user": {
+    "id": "12345",
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "password": "hashed_password",
+    "profilePicture": "https://example.com/avatar.jpg"
+  },
+  "summary": {
+    "totalBalance": 7783.0,
+    "totalExpense": -1187.4,
+    "budget": 20000.0,
+    "expensePercentage": 30
+  },
+  "stats": {
+    "savingsOnGoals": 4000.0,
+    "revenueLastWeek": 4000.0,
+    "foodLastWeek": -100.0
+  },
+  "transactions": [
+    {
+      "id": "t1",
+      "name": "Salary",
+      "category": "Income",
+      "amount": 4000.0,
+      "type": "credit",
+      "date": "2024-04-30",
+      "time": "18:27"
+    },
+    {
+      "id": "t2",
+      "name": "Groceries",
+      "category": "Pantry",
+      "amount": -100.0,
+      "type": "debit",
+      "date": "2024-04-24",
+      "time": "17:00"
+    },
+    {
+      "id": "t3",
+      "name": "Rent",
+      "category": "Rent",
+      "amount": -674.4,
+      "type": "debit",
+      "date": "2024-04-15",
+      "time": "08:30"
+    }
+  ],
+  "categories": [
+    { "id": "c1", "name": "Income", "icon": "💰" },
+    { "id": "c2", "name": "Pantry", "icon": "🛒" },
+    { "id": "c3", "name": "Rent", "icon": "🏠" },
+    { "id": "c4", "name": "Food", "icon": "🍴" }
+  ],
+  "settings": {
+    "currency": "USD",
+    "language": "en",
+    "theme": "dark"
+  }
+}
